@@ -1,0 +1,176 @@
+@import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;700&display=swap');
+
+*{
+    margin: 0; 
+    padding: 0; 
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body{
+    background: linear-gradient(to right, turquoise, white); 
+}
+
+.clase2{
+    width: 1000px;
+    background: white ;
+    margin: 25px auto; 
+    display: flex; 
+}
+
+.izquierda{
+    background: grey; 
+    width: 250px;
+    padding: 0 20px; 
+}
+
+.derecha{
+    width: calc(100% - 250 px);
+}
+
+.izquierda .imagen{
+    text-align: center;
+    padding: 20px 0; 
+}
+
+.izquierda .imagen img{
+    width: 200px;
+    border-radius: 30px;
+}
+
+.pb{
+    padding-bottom: 20px;
+}
+
+.titulo{
+    font-size: 24 px; 
+    font-weight: 700;
+    text-transform:uppercase;
+    letter-spacing: 5px;
+    padding-bottom: 10px;
+    color: white;  
+    position: relative;
+    text-align: right; 
+    margin-bottom: 15px;
+}
+
+.titulo:before{
+    content: "";
+    position:absolute; 
+    top: 35 px; 
+    right: 0;
+    width: 50px;
+    height: 3px;
+    background: white;
+}
+
+.izquierda .icono{
+    font-size: 20px; 
+    color: white;
+}
+
+.izquierda .texto{
+    color: white; 
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.contacto .li_wrap{
+    display:flex; 
+    align-items: center; 
+    width: 100%;
+    margin-bottom: 25px;
+}
+
+.contacto .li_wrap .icono{
+    width: 50px;
+    height: 50px;
+    background: turquoise; 
+    border-radius: 15px;
+    display:flex; 
+    align-items: center;
+    justify-content: center;
+    margin-right: 15px;
+}
+
+.contacto .li_wrap .texto{
+    width: calc(100% - 50px);
+    word-break: break-word; 
+    color: turquoise; 
+}
+
+.habilidades u1{
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-between;
+}
+.hobbies u1{
+    display: flex; 
+    flex-wrap:wrap; 
+    justify-content: space-between;
+}
+
+.habilidades .li_wrap,
+.hobbies .li_wrap{
+    width: 100px;
+    height: 100px;
+    margin-bottom: 15px; 
+    border-radius: 15px;
+    display: flex; 
+    flex-direction: column; 
+    align-items: center;
+    justify-content: center;
+}
+
+.habilidades .li_wrap{
+    background: turquoise;
+}
+
+.habilidades .li_wrap .texto, 
+.hobbies .li_wrap .texto{
+    margin-top: 5px;   
+}
+
+.hobbies .li_wrap{
+    border: 2px solid white; 
+}
+
+.hobbies .li_wrap .texto,
+.hobbies .li_wrap .icono{
+    color:white; 
+}
+
+.hobbies .li_wrap:hover{
+    background: white;  
+}
+
+.hobbies .li_wrap:hover .texto,
+.hobbies .li_wrap:hover .icono{
+    color: turquoise; 
+}
+
+.encabezado{
+    background: grey; 
+    padding: 0px 30px; 
+    color: white;
+    height: 275px; 
+}
+
+.encabezado .nombre{
+    font-size: 52px;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: turquoise; 
+}
+
+.encabezado .papel{
+    font-weight: 300;
+    font-size: 20px;
+}
+
+.header .sobremi{
+    margin-top: 20px;
+    line-height: 26px; 
+}
+
